@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	float: left;
+	clear: both;
+}
+#container div {
+	/*width: 10px;
+	height: 10px;*/
+	background-color: #003E7E;
+	float: left;
+}
+#container div.next_line {
+	clear: both;
+	width: 0;
+	height: 0;
+}
+#container div.some_color {
+	background-color: #018752;
+}
+#resetGrid {
+	float: left;
+}
+#button_container {
+	margin: 20px auto 30px;
+	width: 100px;
+}
+#button_container input {
+	margin: 0 auto;
+	width: 100px;
+}
+#button_container input:first-child {
+	margin: 0 auto 10px;
+}
+#app_container {
+	margin: 0 auto;
+	width: 600px;
+}
