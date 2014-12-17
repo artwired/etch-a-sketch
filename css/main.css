@@ -5,11 +5,12 @@ body {
 #container {
 	float: left;
 	clear: both;
+	margin-top: 30px;
 }
 #container div {
 	/*width: 10px;
 	height: 10px;*/
-	background-color: #003E7E;
+	background-color: #000;
 	float: left;
 }
 #container div.next_line {
@@ -23,18 +24,40 @@ body {
 #resetGrid {
 	float: left;
 }
+#createGrid {
+	float: right;
+}
 #button_container {
-	margin: 20px auto 30px;
-	width: 100px;
+	position: relative;
+	margin: 10px auto 30px;
+	width: 220px;
+	z-index: 999px;
 }
 #button_container input {
-	margin: 0 auto;
-	width: 100px;
-}
-#button_container input:first-child {
 	margin: 0 auto 10px;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
 }
 #app_container {
 	margin: 0 auto;
 	width: 600px;
+	height: 600px;
+}
+#colorCodeContainer {
+	margin: 0 auto;
+	width: 220px;
+	position: absolute;
+	top: 20px;
+}
+#colorcode {
+	width: 220px;
+	position: relative;
+	left: 4px;
+	top: 20px;
+}
+#initialText {
+	position: relative;
+	left: 4px;
+	top: 4px;
 }
