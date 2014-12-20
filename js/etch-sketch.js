@@ -25,7 +25,7 @@ $(document).ready(function() {
 		var promptDiv = "";
 			var specNumDiv = specNum;
 			var specNumTotal = specNum*specNum + 1;
-			var dynamicDivScale = containerSize / specNumDiv;
+			var dynamicDivScale = Math.floor(containerSize / specNumDiv);
 			var oddNum = [7, 11, 17, 19, 26, 28, 33, 34, 35, 46, 47, 49, 51, 54, 55, 56, 57, 58, 62, 64, 65, 69, 76, 77, 78, 79, 83, 84, 85, 86, 87, 91, 94, 95, 99];
 			for (var i = 0; i < specNumTotal; i++) {
 				promptDiv += "<div class='reg'></div>";
